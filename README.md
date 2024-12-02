@@ -69,7 +69,7 @@ The dataset used in this project contains the following columns:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/housing-market-analysis.git
+   git clone https://github.com/imanetag/BI-DataVisualization.git
    ```
 2. Open the project in RStudio or your preferred R IDE.
 3. Install the required R packages:
@@ -78,7 +78,7 @@ The dataset used in this project contains the following columns:
    ```
 4. Update the dataset path in the script:
    ```R
-   file_path <- "path/to/housing_data.csv"
+   file_path <- "./housing_data.csv"
    ```
 5. Run the analysis by executing the R script.
 
@@ -106,51 +106,47 @@ The dataset used in this project contains the following columns:
 
 ---
 
-## Directory Structure
-
-```
-housing-market-analysis/
-├── data/
-│   └── housing_data.csv          # Dataset file (to be added by the user)
-├── scripts/
-│   └── analysis.R                # Main analysis script
-├── results/
-│   ├── plots/                    # Generated plots
-│   └── summary_statistics.csv    # Summary statistics
-└── README.md                     # Project documentation
-```
+Here’s a fixed and slightly enhanced version of the **Contributions** section:
 
 ---
 
 ## Contributions
 
-Feel free to contribute to this project by:
-- Improving the analysis scripts.
-- Adding additional datasets.
-- Suggesting new features.
+We welcome contributions to this project! Here are some ways you can help:
 
-To contribute:
-1. Fork this repository.
-2. Create a feature branch:
+- Improve the analysis scripts or add new functionalities.
+- Provide additional datasets for analysis.
+- Suggest or implement new features and visualizations.
+- Fix bugs or improve code readability and documentation.
+
+### How to Contribute
+
+1. **Fork the Repository**:
+   Click the **Fork** button at the top of this repository to create your copy.
+
+2. **Clone Your Fork**:
+   ```bash
+   git clone https://github.com/yourusername/BI-DataVisualization.git
+   cd BI-DataVisualization
+   ```
+
+3. **Create a Feature Branch**:
    ```bash
    git checkout -b feature-name
    ```
-3. Commit your changes and push to the branch.
-4. Open a pull request.
 
----
+4. **Make Changes**:
+   Edit the code, fix bugs, or add new features.
 
-## License
+5. **Commit and Push Your Changes**:
+   ```bash
+   git add .
+   git commit -m "Description of your changes"
+   git push origin feature-name
+   ```
 
-This project is licensed under the [MIT License](LICENSE).
+6. **Open a Pull Request**:
+   - Go to the original repository.
+   - Click on the **Pull Requests** tab and create a new pull request.
+   - Provide a detailed description of your changes.
 
----
-
-## Acknowledgments
-
-- Dataset sourced from [source name, if available].
-- Statistical methods inspired by [reference, if applicable].
-
----
-
-Let me know if you'd like to customize this README further!
