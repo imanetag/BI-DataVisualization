@@ -176,3 +176,6 @@ We welcome contributions to enhance this project! Here's how you can help:
 3. **Push and Submit**:
    - Push changes to your fork.
    - Open a Pull Request with a detailed description.
+
+---
+
