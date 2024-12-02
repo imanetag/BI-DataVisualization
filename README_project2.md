@@ -1,4 +1,3 @@
-Here is an enhanced version of your README file, designed to showcase professionalism, clarity, and a structured approach to ensure it performs well in a graded evaluation:
 
 ---
 
